@@ -4,9 +4,9 @@ import "fmt"
 
 func main(){
 
-	fmt.Print("Enter your age: ")
-	var age int
-	fmt.Scanf("%d" , &age)
+	//fmt.Print("Enter your age: ")
+	//var age int
+	//fmt.Scanf("%d" , &age)
 	
 	/*	if age < 3{
 
@@ -22,6 +22,8 @@ func main(){
 		} 
 	*/
 
+
+	/*
 
 	switch age {
 	case 2:
@@ -41,9 +43,40 @@ func main(){
 
 			}
 
+	*/
+
+	//for loop
+
+	
+	/*
+	for i:=1; i<=9; i++{
+
+		fmt.Println(i)
+	}
+	
+	*/
+
+	//for range loop
+
+	/*
+	students:= []string{"Tareq", "Anonna", "Tahsin"}
+
+	for i, std := range students {
+		fmt.Println(i,std)
+		}
+	*/
+
+	//while loop 
+
+	i:=1
+	for  {
+		fmt.Println(i,"hello")
+
+	i++
+	}
 
 
-
+ 
 
 
 
